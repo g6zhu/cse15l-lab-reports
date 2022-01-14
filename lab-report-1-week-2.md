@@ -27,3 +27,4 @@
  - ```ls -lat ```
  - ```ls -a ```
  - You should see something like this
+ - ![image] ()
