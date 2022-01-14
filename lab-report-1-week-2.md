@@ -28,7 +28,7 @@
   - ```ls -lat ```
   - ```ls -a ```
   - You should see something like this
-  - ![image](https://github.com/g6zhu/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%208.43.49%20PM.png)
+  - ![image](Screen%20Shot%202022-01-13%20at%208.43.49%20PM.png)
   - You can also try ```cd ``` to access the folder
   - Finally, if you want to exit the account and back to your local terminal, you should type ```exit```
 
@@ -52,7 +52,7 @@
 - ```scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/```
 - Replace 'zz' with your specific characters, Login with your password
 - Login into your account again, and type ```ls```, you should see your file up there
-- ![image](https://github.com/g6zhu/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%209.00.29%20PM.png)
+- ![image](Screen%20Shot%202022-01-13%20at%209.00.29%20PM.png)
 
 **STEP 5: Setting an SSH Key**
 - Entering key everytime is time consuming and annoying, here is a way to skip tha step
@@ -83,7 +83,7 @@
     +----[SHA256]-----+
      ``` 
   - Since I alreay done this, I do not wish to create a file again, however, it should be something like this
-  - ![image](https://github.com/g6zhu/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%209.21.55%20PM.png)
+  - ![image](Screen%20Shot%202022-01-13%20at%209.21.55%20PM.png)
   - Be sure to save the file on your appointed location   
   - After that, you can login to your account using ```ssh```
   - We just created two key files, one public and one private
@@ -102,4 +102,4 @@
 - Some command is very useful
 - For example, you can do the command ```ssh cs15lwi22@ieng6.ucsd.edu "ls"```
 - It will list the file you have without actually login your account
-- ![image](https://github.com/g6zhu/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%209.17.07%20PM.png)
+- ![image](Screen%20Shot%202022-01-13%20at%209.17.07%20PM.png)
