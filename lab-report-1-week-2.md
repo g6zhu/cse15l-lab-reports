@@ -81,6 +81,8 @@
     |             ..  |
     +----[SHA256]-----+
      ``` 
+  - Since I alreay done this, I do not wish to create a file again, however, it should be something like this
+  -    
   - After that, you can login to your account using ```ssh```
   - We just created two key files, one public and one private
   - Follow the instruction below, and you should change your directory for the file, search for your directory on local first
@@ -98,4 +100,4 @@
 - Some command is very useful
 - For example, you can do the command ```ssh cs15lwi22@ieng6.ucsd.edu "ls"```
 - It will list the file you have without actually login your account
-- 
+- ![image](https://github.com/g6zhu/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%209.17.07%20PM.png)
