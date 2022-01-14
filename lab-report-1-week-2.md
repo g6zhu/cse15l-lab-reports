@@ -1,5 +1,5 @@
-                                                   # CSE15L WEEK2 LAB REPORT
-                                                       ## By Guanyu Zhu 
+# CSE15L WEEK2 LAB REPORT
+## By Guanyu Zhu 
 **STEP 1: Installing VScode**
 - Go to https://code.visualstudio.com/
 - Download the VScode version that fit your operating system
