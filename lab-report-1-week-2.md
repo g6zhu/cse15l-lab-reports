@@ -18,3 +18,12 @@
   - Replace zz with your specific letters
   - After that, the authentification will appear and you should type "yes"
   - Now, you should have login your account successfully it should looks like this
+  - ![image](https://github.com/g6zhu/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%208.38.01%20PM.png)
+
+**STEP 3: Run Some Commands**
+- We can try some command on terminal
+ - For example, we can try ```ls``` in a couple different variation
+ - ```ls ```
+ - ```ls -lat ```
+ - ```ls -a ```
+ - You should see something like this
