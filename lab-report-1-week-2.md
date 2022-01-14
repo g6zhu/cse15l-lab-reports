@@ -51,9 +51,13 @@
 - ```scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/```
 - Replace 'zz' with your specific characters, Login with your password
 - Login into your account again, and type ```ls```, you should see your file up there
-
-
-
+- ![image](https://github.com/g6zhu/cse15l-lab-reports/blob/main/Screen%20Shot%202022-01-13%20at%209.00.29%20PM.png)
 
 **STEP 5: Setting an SSH Key**
+- Entering key everytime is time consuming and annoying, here is a way to skip tha step
+- We will create a SSH key so that it build a 1-to-1 connect to your laptop and server
+- To do this, we need to first exit the server and back to local terminal
+  - On client side, type in command ```ssh-keygen```
+  -  
+
 **STEP 6: Optimizing Remote Running**
