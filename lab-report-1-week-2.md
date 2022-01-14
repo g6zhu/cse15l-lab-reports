@@ -4,7 +4,7 @@
 - Go to https://code.visualstudio.com/
 - Download the VScode version that fit your operating system
 - Install VScode on your device
-- ![picture](Screen%20Shot%202022-01-13%20at%209.21.55%20PM.png)
+- ![picture](Screen%20Shot%202022-01-05%20at%203.48.03%20PM.png)
 
 **STEP 2: Remote Connecting**
 - Before we do the actual steps, we need to find our account first
