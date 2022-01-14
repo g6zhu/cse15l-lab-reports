@@ -58,6 +58,44 @@
 - We will create a SSH key so that it build a 1-to-1 connect to your laptop and server
 - To do this, we need to first exit the server and back to local terminal
   - On client side, type in command ```ssh-keygen```
-  -  
+  - You should see some thing like this
+  ```
+  # Generating public/private rsa key pair.
+    Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+    Enter passphrase (empty for no passphrase): 
+    Enter same passphrase again: 
+    Your identification has been saved in /Users/joe/.ssh/id_rsa.
+    Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+    The key fingerprint is:
+    SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+    The key's randomart image is:
+    +---[RSA 3072]----+
+    |                 |
+    |       . . + .   |
+    |      . . B o .  |
+    |     . . B * +.. |
+    |      o S = *.B. |
+    |       = = O.*.*+|
+    |        + * *.BE+|
+    |           +.+.o |
+    |             ..  |
+    +----[SHA256]-----+
+     ``` 
+  - After that, you can login to your account using ```ssh```
+  - We just created two key files, one public and one private
+  - Follow the instruction below, and you should change your directory for the file, search for your directory on local first
+  ```
+  $ mkdir .ssh
+  $ <logout>
+  # back on client
+  $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+  # You use your username and the path you saw in the command above
+  ```
+  - You can now login with your account, no key should be required now
 
 **STEP 6: Optimizing Remote Running**
+- There are many ways you can use the command to get a easy access to the server
+- Some command is very useful
+- For example, you can do the command ```ssh cs15lwi22@ieng6.ucsd.edu "ls"```
+- It will list the file you have without actually login your account
+- 
