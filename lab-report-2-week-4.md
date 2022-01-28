@@ -5,9 +5,10 @@
 - ![image](Screen%20Shot%202022-01-28%20at%202.34.03%20PM.png)
 - The first big major change is aim to resolve the problem of multi brackets
 - Without changes, the result will looks like following, which is incorrect
-- -![image](Screen%20Shot%202022-01-28%20at%202.53.30%20PM.png)
+- -![image](Screen%20Shot%202022-01-28%20at%202.58.36%20PM.png)
 - ```[a link!]((https://something.com))
-     [another link!](some-page.html)```
+     [another link!](some-page.html)
+  ```
 - The multiple brackets appear on the above input is caused by the wrong counting of brackets
 - The output suppose to no include the brackets. However, the wrong output include a open brackets
 - To fix such problem, we only need to count the number of open and closed brackets so to match it
@@ -20,7 +21,8 @@
 - ```
   
   [](a link on the first line)
-  [```
+  [
+  ```
 - The empty line appear on top of the links will causes the while loop does not detect any thing
 - Thus result in a infinite loop
 - To fix the problem, we can resolve it by writing the method in order to detect whether a new line exist
