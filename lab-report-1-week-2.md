@@ -104,4 +104,6 @@
 - It will list the file you have without actually login your account
 - ![image](Screen%20Shot%202022-01-13%20at%209.17.07%20PM.png)
 - Some commnad used that can make the remote using more pleasant
-- 
+- ![image](Screen%20Shot%202022-01-28%20at%202.05.59%20PM.png)
+- What I did is I create a new java file that will printout Whatsup
+- And I upload it to the server and compile and run at the same time
