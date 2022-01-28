@@ -5,7 +5,7 @@
 - ![image](Screen%20Shot%202022-01-28%20at%202.34.03%20PM.png)
 - The first big major change is aim to resolve the problem of multi brackets
 - Without changes, the result will looks like following, which is incorrect
-- -![image]()
+- -![image](Screen%20Shot%202022-01-28%20at%202.53.30%20PM.png)
 - ```[a link!]((https://something.com))
      [another link!](some-page.html)```
 - The multiple brackets appear on the above input is caused by the wrong counting of brackets
