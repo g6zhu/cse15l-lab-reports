@@ -2,7 +2,7 @@
 ## By Guanyu Zhu 
 
 **Change 1:
-- ![image]()
+- ![image](Screen%20Shot%202022-01-28%20at%202.34.03%20PM.png)
 - The first big major change is aim to resolve the problem of multi brackets
 - Without changes, the result will looks like following, which is incorrect
 - -![image]()
@@ -13,10 +13,10 @@
 - To fix such problem, we only need to count the number of open and closed brackets so to match it
 
 **Change 2:
-- ![image]()
+- ![image](Screen%20Shot%202022-01-28%20at%202.53.30%20PM.png)
 - The second major change is aim to resolve the empty line appear on the top of input
 - The empty line will causes the a infinite loop
-- ![image]()
+- ![image](Screen%20Shot%202022-01-28%20at%203.05.10%20PM.png)
 - ```
   
   [](a link on the first line)
@@ -26,9 +26,8 @@
 - To fix the problem, we can resolve it by writing the method in order to detect whether a new line exist
 
 **Change 3;
-- ![image]()
 - The thrid change is we avoid the problem of indexOutOfBoundException
-- ![image]()
+- ![image](Screen%20Shot%202022-01-28%20at%203.30.19%20PM.png)
 - ```# title
 
     []
