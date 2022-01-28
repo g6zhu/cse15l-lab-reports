@@ -13,7 +13,7 @@
 - To fix such problem, we only need to count the number of open and closed brackets so to match it
 
 **Change 2:
-- ![image](Screen%20Shot%202022-01-28%20at%202.53.30%20PM.png)
+- ![image](Screen%20Shot%202022-01-28%20at%203.43.19%20PM.png)
 - The second major change is aim to resolve the empty line appear on the top of input
 - The empty line will causes the a infinite loop
 - ![image](Screen%20Shot%202022-01-28%20at%203.05.10%20PM.png)
