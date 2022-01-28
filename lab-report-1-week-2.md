@@ -103,3 +103,5 @@
 - For example, you can do the command ```ssh cs15lwi22@ieng6.ucsd.edu "ls"```
 - It will list the file you have without actually login your account
 - ![image](Screen%20Shot%202022-01-13%20at%209.17.07%20PM.png)
+- Some commnad used that can make the remote using more pleasant
+- 
