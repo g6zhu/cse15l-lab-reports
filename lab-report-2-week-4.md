@@ -28,6 +28,7 @@
 - To fix the problem, we can resolve it by writing the method in order to detect whether a new line exist
 
 **Change 3;
+- ![image](codechange2.png)
 - The thrid change is we avoid the problem of indexOutOfBoundException
 - ![image](Screen%20Shot%202022-01-28%20at%203.30.19%20PM.png)
 - ```# title
@@ -40,3 +41,5 @@
 - The default return will be -1 by java
 - However, -1 is not a valid index
 - To fix this problem, we can simply continue the process so to keep the entire program running
+- This bug was the reason that our ```toReturn``` does not return the value we want
+- Thus, causing the indexOutOfBoundException
