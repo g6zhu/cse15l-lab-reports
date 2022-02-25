@@ -2,6 +2,7 @@
 ## By Guanyu Zhu 
 
 - Snippet 1
+
 ```
 [a link`](url.com)
 
@@ -20,6 +21,7 @@ Change need to make: Modification can be within 10 lines of code. By using for-l
 Iterating through md file, we are able to get rid off the effect by backticks.
 
 - Snippet 2
+
 ```
 [a [nested link](a.com)](b.com)
 
@@ -33,7 +35,9 @@ Iterating through md file, we are able to get rid off the effect by backticks.
 
 The test did not meet the expected output```[a.com, a.com(()), example.com]```. Instead, the output is ```a.com, a.com(([], example.com]```
 Change need to make: Modification can be within 10 lines of code. By using additional statment to identify the first ```[``` or ```(```. 
+
 - Snippet 3
+
 ```
 [this title text is really long and takes up more than 
 one line
