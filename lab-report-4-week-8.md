@@ -72,5 +72,11 @@ Change need to make: Modification can be within 10 lines of code. We can identif
 ![image](reviewJunit.png)
 - Snippet 1
 ![image](reviewtest1.png)
+The test did not meet the expected output.
+Change need to make: Modification under 10 lines of code is possible. Using if-statement can be a good way to get race of backticks. A good if-statement can help us to ignore the backticks.
 - Snippet 2
 ![image](reviewtest2.png)
+The test did not meet the expected output.
+Change need to make: Modification under 10 lines of code is possible. Usin g if-statement and for-loop to identify the index of next ```[``` or ```(```. 
+- Snippet 3
+The test did meet the expected output and pass. No modification needed.
