@@ -1,6 +1,7 @@
 # CSE15L WEEK8 LAB REPORT
 ## By Guanyu Zhu 
 
+https://github.com/g6zhu/markdown-parse
 - Snippet 1
 - ```
     [a link`](url.com)
@@ -70,6 +71,7 @@ The test did not meed expect output```[https;//ucsd-cse15l-w22.github.io/]```. I
 Change need to make: Modification can be within 10 lines of code. We can identify new lines which we have already used in the code and let it check all the lines. Once it find```[``` or ```(```, we can let it continue the process until everything is scanned
 
 ---
+https://github.com/iireneliao/markdown-parse-main
 - Snippet 1,2,3 for group reviewed
 - Test
 ![image](reviewJunit.png)
